@@ -1,0 +1,16 @@
+let distancia=1;
+if(distancia>0 && distancia<1000){
+    alert('El camino es a pie')
+}
+else if(distancia>1000 && distancia<10000){
+    alert('El camino es con bicicleta')
+}
+else if(distancia>10000 && distancia<30000){
+    alert('El camino es con colectivo')
+}
+else if(distancia>30000 && distancia<100000){
+    alert('El camino es con un auto')
+}
+else{
+    alert('El camino es con avion')
+}
