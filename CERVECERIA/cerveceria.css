@@ -63,7 +63,7 @@ h2 {
         position: absolute;
         bottom: 0;
         right: 300px;
-        width: 300px; /* Ancho del carrusel */
+        width: 300px; 
         overflow: hidden;
-        border: 2px solid #ccc; /* Opcional: Añadir borde para mejor visibilidad */
+        border: 3px solid #ccc; 
     }
