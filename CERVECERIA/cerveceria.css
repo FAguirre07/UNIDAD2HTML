@@ -48,3 +48,22 @@ h2 {
 .lista-novedades li a:hover img{
     filter: none;
 }
+
+.testimonios{
+    background-color: #dadada;
+    padding-bottom: 4rem !important;
+    }
+
+    .testimonios{
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .testimonios {
+        position: absolute;
+        bottom: 0;
+        right: 300px;
+        width: 300px; /* Ancho del carrusel */
+        overflow: hidden;
+        border: 2px solid #ccc; /* Opcional: Añadir borde para mejor visibilidad */
+    }
