@@ -56,8 +56,11 @@ h2 {
 
     .testimonios{
         text-align: center;
-        padding: 50px 20px;
+        padding: 50px;
+        margin: -80px;
     }
+
+
 
     .testimonios {
         position: absolute;
@@ -67,3 +70,21 @@ h2 {
         overflow: hidden;
         border: 3px solid #ccc; 
     }
+
+
+    .staff{
+        background: #efefef;
+    }
+
+   .mapa iframe{
+    width: 100%;
+    aspect-ratio: 1.2;
+   }
+
+   html{
+    scroll-behavior: smooth;
+   }
+   
+   .scroll_section{
+    scroll-margin-top: 60px;
+   }

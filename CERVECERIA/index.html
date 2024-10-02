@@ -27,26 +27,26 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">¿Quienes somos?</a>
+                        <a class="nav-link active" aria-current="page" href="#nosotros">¿Quienes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">¿Como realizar una reserva?</a>
+                        <a class="nav-link active" href="#novedades">Nuevas novedades</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Nosotros.</a>
+                        <a class="nav-link active" href="#mapa">Visitanos</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <button class="btn btn-outline-success" type="submit" style="color: white;">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
     <div class="container-fluid">
         <div class="container-fluid">
-            <div id="home" class="hero row align-items-center">
+            <div id="home" class="hero row align-items-center scroll_section">
                 <div class="col-lg-3 offset-lg-2">
                     <p>Almacén de cervezas.</p>
                     <h1>Doña Malta.</h1>
@@ -196,6 +196,120 @@
 
             </div>
         </div>
+
+        <div id="historia" class="row align-items-center py-4">
+            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+                <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block" style="margin: 0px;">
+                <img src="img/historia_2.jpg" alt="historia 2" class="img-fluid">
+            </div>
+            <div class="col-12 d-sm-none">
+                <img src="img/historia_3.jpg" alt="historia 3" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                <h2>Historia</h2>
+                <p>Donde cada sorbo, es una anécdota.</p>
+            </div>
+        </div>
+
+        <div id="nosotros" class="row align-items-center staff g-4">
+            <div class="col">
+                <h2>Nosotros</h2>
+                <div class="card">
+                    <img src="img/nosotros01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Romina</h5>
+                        <p class="card-text">Creadora de la cervecería.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img\nosotros02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gustavo</h5>
+                        <p class="card-text">Community manager. Encargado de toda la parte de redes sociales.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img\nosotros03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Andres</h5>
+                        <p class="card-text">Cheff profesional de la cerveceria.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img\nosotros04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Esteban</h5>
+                        <p class="card-text">Encargado del sector de cajas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mapa" class="row py-4">
+            <div class="col-md-4 offset-md-2">
+                <h2>Visitanos</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.329510197433!2d-58.418475023530334!3d-34.621112458418374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbb0e2075ec9%3A0x37abdcfbc254ecfa!2sDo%C3%B1a%20Malta!5e0!3m2!1ses-419!2sar!4v1727835179222!5m2!1ses-419!2sar"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                </div>
+            </div>
+        </div>
+
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Calle falsa 123">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Dirección 2 (Opcional)</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, piso">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Seleccionar</option>
+                    <option>CABA</option>
+                    <option>Zona Sur</option>
+                    <option>Zona Norte</option>
+                    <option>Zona Oeste</option>
+                    <option>Zona Este</option>
+
+                </select>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Guardar mis datos
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar formulario</button>
+            </div>
+        </form>
 
 
         <footer>
